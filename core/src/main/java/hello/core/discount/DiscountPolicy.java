@@ -4,6 +4,6 @@ import hello.core.member.Member;
 
 public interface DiscountPolicy {
 
-    int discount(Member menber, int price);
+    int discount(Member member, int price);
 
 }
