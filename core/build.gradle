@@ -25,6 +25,8 @@ dependencies {
 	testAnnotationProcessor 'org.projectlombok:lombok'
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'javax.inject:javax.inject:1'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
 }
 
 test {
